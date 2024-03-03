@@ -1,36 +1,48 @@
-Debouncing: 
+
+# Youtube clone
+
+Built a functional YouTube clone, replicating core features like video search, playback, and user interaction. Utilized React.js and modern web development practices to ensure a smooth and responsive user experience.
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
 
 
-typing slow = 200ms
-typing fast = 30ms
+## Screenshots
 
+![App Screenshot](./screenshots/homepage.png)
 
-Perfomance: 
- - iphone pro max = 14 letter * 1000  = 140000
- - with debouncing= 3 API calls * 1000 = 3000
+![App Screenshot](./screenshots/videopage.png)
 
+![App Screenshot](./screenshots/commentssectionpage.png)
 
-
- Debouncing with 200ms
- - if difference between 2 key strokes is <200ms - DECLINE API call
-- >200ms make an API call
+![App Screenshot](./screenshots/others.png)
 
 
 
+## Feedback
 
+If you have any feedback, please reach out to us at balajiyatheysh87@gmail.com
 
-
-Cache: 
-time complexity tro search in array = O(n)
-time complexity tro search in Object = O(1)
-
-[i, ip, iph, iphone]
-
-{
-    i: 
-    ip:
-    iph: 
-    iphone:
-}
-
-new Map();
