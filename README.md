@@ -8,7 +8,7 @@ Built a functional YouTube clone, replicating core features like video search, p
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Balajiyatheysh/youtube-clone.git
 ```
 
 Go to the project directory
